@@ -5,8 +5,7 @@ def run(n):
     print(n)
     
     run(n-1)
-    print()
-    print(n)
+    run(n-1)
     
 n = 3
 run(n)
