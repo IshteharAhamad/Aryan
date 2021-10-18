@@ -6,6 +6,6 @@ def counts(str,word):
     for i in ls:
         if i == word:
             count +=1
-        print(i)
+            print(i)
     return count
 print(counts(str,word))
